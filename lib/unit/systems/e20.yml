@@ -1,0 +1,22 @@
+units:
+  watt_hour:
+    sym: Wh
+    def: watt * hour
+  btu:
+    sym: BTU
+    def: 1054.804 joules # American BTU from http://en.wikipedia.org/wiki/British_thermal_unit#Definitions
+  dollar:
+    sym: [dollars, dollar]
+    def: dollar
+  cent:
+    sym: [cents, cent]
+    def: 0.01 dollar
+  therm:
+    sym: [therms, therm]
+    def: 100000 BTU
+  pound_force:
+    sym: lbf
+    def: 4.448 newtons # http://www.wolframalpha.com/input/?i=1+lbf
+  horsepower:
+    sym: hp
+    def: 550 ft * lbf / second
